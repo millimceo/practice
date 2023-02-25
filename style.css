@@ -1,0 +1,41 @@
+* {
+    font-size: 16px;
+    line-height: 1;
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation*/
+
+nav {
+    background-color: #2d2d2d;    
+}
+nav .container{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+nav ul.wrapper {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+}
+nav ul.wrapper li {
+    display: flex;
+    list-style: none;
+}
+nav ul.wrapper li a {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 11px;
+    color: #FFFFFF;
+    opacity: .8;
+    text-decoration: none;
+}
+nav ul.wrapper li a:hover {
+    opacity: 1;
+}
+
+
+
